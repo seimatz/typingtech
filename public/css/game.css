@@ -1,0 +1,203 @@
+
+.gamewindow {
+  min-height: 500px;
+}
+
+.question {
+  font-size: 20pt;
+  border-bottom: solid 1px #000000;
+  margin-bottom: 10px;
+}
+
+.trans {
+  font-size: 12pt;
+}
+
+textarea.typedtxt {
+  font-size: 20pt;
+  min-height: 40px;
+  min-height: 3em;
+}
+
+.misstyped {
+  font-size: 20pt;
+  min-height: 40px;
+  padding-left: 30px;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+/*result window*/
+  .result_misstype{
+    color: #F01818;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    border: 1px solid black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+i.icon-yellow {
+    color:#ffeb3b;
+}
+
+.cpm {
+    font-size: 1.2em;
+    padding-top: 3px;
+    padding-left: 15px;
+    position: absolute;
+}
+
+/*keyboard guide*/
+.keyguide {
+    z-index: 1003;
+    display: block;
+    opacity: 0.8;
+    bottom: 0px;
+    top: auto;
+    margin: 0;
+    width: 100%;
+    max-height: 45%;
+    border-radius: 0;
+    will-change: bottom, opacity;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-bottom: 10px;
+    overflow-y: auto;
+}
+.keyguidehide {
+    z-index: 0;
+    }
+
+/*keyboard guide*/
+#container {
+margin: 10px auto;
+width: 688px;
+}
+#write {
+margin: 0 0 5px;
+padding: 5px;
+width: 671px;
+height: 200px;
+font: 1em/1.5 Verdana, Sans-Serif;
+background: #fff;
+border: 1px solid #f9f9f9;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#keyboard {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+    #keyboard li {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #f9f9f9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+
+    .en {
+        margin-left:5px;
+    }
+    .ru {
+        line-height: 12px;
+        margin-left: 20px;
+        color: #F01818;
+    }
+    #keyboard .nextkey {
+        background: #F0F018;
+    }
+        .capslock, .tab, .left-shift {
+        clear: left;
+        }
+            #keyboard .tab, #keyboard .delete {
+            width: 70px;
+            }
+            #keyboard .capslock {
+            width: 80px;
+            }
+            #keyboard .return {
+            width: 77px;
+            }
+            #keyboard .left-shift {
+            width: 95px;
+            }
+            #keyboard .right-shift {
+            width: 109px;
+            }
+        .lastitem {
+        margin-right: 0;
+        }
+        .uppercase {
+        text-transform: uppercase;
+        }
+        #keyboard .space {
+        clear: left;
+        width: 681px;
+        }
+        .on {
+        display: none;
+        }
+        #keyboard li:hover {
+        position: relative;
+        top: 1px;
+        left: 1px;
+        border-color: #e5e5e5;
+        cursor: pointer;
+        }
+
+#contents h2 {
+    font-size: 2.8em;
+}
+
+#contents h3 {
+    font-size: 2.5em;
+        margin-top: 1.0em;
+}
+
+#contents h4 {
+        font-size: 2.0em;
+}
+
+#contents img {
+    max-width: 100%;
+}
+
+#questions_all {
+  color:#eceff1;
+  line-height: 0em;
+}
+
+#trans_all {
+  color:#eceff1;
+  line-height: 0em;
+}
+.browser-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.top_lang {
+  margin: 0;
+}
