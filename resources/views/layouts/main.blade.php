@@ -42,7 +42,7 @@
     <body class="blue-grey lighten-5">
     <nav>
       <div class="nav-wrapper teal accent-4">
-        <a href="/" class="brand-logo center">Typing.Cyrillic Beta</a>
+        <a href="/" class="brand-logo center">Typing.Tech Beta</a>
       </div>
     </nav>
 
